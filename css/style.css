@@ -1,0 +1,137 @@
+/*fonts start*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*fonts ends*/
+
+/*common start*/
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+	padding-top: 120px;
+}
+/*common end*/ 
+/*header start*/
+header{
+	background-color: #F0FFF0;
+	padding: 15px 0;
+}
+.cnav{}
+.logo{
+	width: 200px;
+}
+.nav_tog:focus{
+	box-shadow: none;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	padding: 0 25px !important;
+	color: #000000 !important;
+	line-height: 24px;
+}
+.menu ul li a:hover{
+	color: #FD511A!important;
+}
+.btn_sign{
+	margin-left: 10px;
+	width: 105px;
+	height: 45px;
+}
+.btn_c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 33px;
+	border: 0;
+	background-color: #21B573;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	line-height: 19px;
+}
+.btn_c:hover{
+	background-color: #FD511A;
+	color: #FFFFFF; 
+}
+.btn_c:active{
+	background-color: #FD511A !important;
+	color: #FFFFFF !important; 
+}
+/*modal*/
+/* Modal Header */
+.modal-header{
+	padding: 2px 16px;
+	background-color: #F0FFF0;
+	color: #010101;
+}
+
+/* Modal Body */
+.modal-body{
+	padding: 2px 16px;
+}
+
+/* Modal Footer */
+.modal-footer{
+	padding: 2px 16px;
+	background-color: #F0FFF0;
+	color: #010101;
+}
+
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+}
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+/*modal*/
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #F0FFF0;
+	padding-bottom: 65px;
+}
+.b_text{}
+
+.b_p1{
+	color: #F0FFF0;
+	line-height: 24px;
+}
+.b_h1{
+	margin: 10px 0 20px;
+	padding: 0 97px 0 0;
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 70px;
+}
+
+.b_h1 span{
+	color: #21B573;
+}
+
+.b_p2{
+	line-height: 36px;
+}
+.btn_link{
+	margin-top: 15px; 
+	width: 155px;
+	height: 45px;
+}
+
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/

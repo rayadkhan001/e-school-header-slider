@@ -1,0 +1,127 @@
+/* 'col' Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	/*header start*/
+	header{
+		padding: 0;
+	}
+	.logo{
+		width: 170px;
+	}
+	.menu ul li a{
+		margin-bottom: 5px;
+		padding: 0px 10px !important;
+	}
+	/*banner start*/
+	.banner{
+		padding-bottom: 60px;
+	}
+	.b_text{
+		text-align: center;
+	}
+	.b_h1{
+		padding: 0;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.b_p2{
+		line-height: 26px;
+		padding: 0;
+	}
+	.btn_link{
+		margin: 15px auto 0;
+	}
+	.b_img{
+		margin-bottom: 30px;
+		padding: 0;
+	}
+}
+
+/* Small devices (landscape phones, 576px and above) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	header{
+		background-color: #d8f6cb;
+		padding: 5px 0;
+	}
+	.logo{
+		width: 180px;
+	}
+	.menu ul li a{
+		margin-bottom: 5px;
+		padding: 0 10px !important;
+	}
+	/*banner start*/
+	.b_text{
+		text-align: center;
+	}
+	.b_h1{
+		padding: 0 90px 0;
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.b_p2{
+		line-height: 36px;
+		padding: 0 40px;
+	}
+	.btn_link{
+		margin: 15px auto 0;
+	}
+	.b_img{
+		margin-bottom: 30px;
+		padding: 0 60px;
+	}
+}
+
+/* Medium devices (tablets,768px and above) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a{
+		margin-bottom: 5px;
+		padding: 0 10px !important;
+	}
+
+}
+
+/* Large devices (desktops, 992px and above) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner*/
+	.b_h1 {
+	    font-size: 33px;
+	    line-height: 45px;
+	}
+}
+
+/* Extra large devices (1200px and above) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.b_h1 {
+	    padding: 0 40px 0 0;
+	}
+}
+/* Extra large devices (1200px and above) */
+@media (min-width: 1400px) /*and (max-width: 1599.98)*/ {
+	/*banner*/
+	.b_h1 {
+	    padding: 0 90px 0 0;
+	}
+}
+
+/* Extra large devices (1200px and above) */
+/*@media (min-width: 1400px) and (max-width: 1599.98) {
+
+}*/
+
+/* Extra large devices (1200px and above) */
+/*@media (min-width: 1500px) and (max-width: 1999.98) {
+
+}*/
+
+/* Extra extra large devices (large desktops,1400px and above) */
+/*@media (min-width: 2000px) {
+
+}*/
+
+/*@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }*/

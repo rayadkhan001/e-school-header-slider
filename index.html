@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>E-School Header-Slider.</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquary.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="fixed-top">
+      <div class="container px-0">
+
+        <!-- nav starts -->
+        <nav class="navbar navbar-expand-lg cnav">
+          <div class="container-fluid">
+
+            <!-- logo start -->
+            <a class="navbar-brand nav_tog" href="index.html">
+                <img src="img/logo.png" class="img-fluid logo" alt="E-School">
+            </a>
+            <!-- logo end -->
+
+            <!-- toggler start -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-id" aria-controls="nav-id" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- toggler end -->
+
+            <!-- menu stat -->
+            <div class="collapse navbar-collapse menu" id="nav-id">
+
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Books</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Others</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+
+              <!-- sign in start -->
+              <button type="button" class="btn btn_c btn_sign" data-bs-target="#ex_tog" data-bs-toggle="modal" id="myBtn">Sign in</button>
+              <!-- sign in end -->
+
+                <!-- modal start -->
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2>E-School</h2>
+                    </div>
+
+                    <div class="modal-body">
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname" placeholder="Type Your First Name">
+
+                      <label for="lname">Last name:</label>
+                      <input type="text" id="lname" name="lname" placeholder="Type Your Last Name">
+
+                      <label for="email">Email Address:</label>
+                      <input type="email" id="email" name="email" placeholder="Type Your Email Address">
+                    </div>
+
+                    <div class="modal-footer">
+                      <h3>Register an account.</h3>
+                    </div>
+
+                  </div>
+                </div>
+                  <!-- modal end -->
+              </div>
+              <!-- menu ends -->
+            </div>
+          </nav>
+          <!-- nav ends -->
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner start -->
+    <section class="banner">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- banner text start -->
+          <div class="col-lg-5 order-lg-1 order-2">
+            <div class="b_text">
+              <p class="b_p1 mb-0">Are you ready to Learn?</p>
+              <h1 class="b_h1">Learn With fun on <span>any schedule</span></h1>
+              <p class="b_p2 mb-0">Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit. Varius blandit facilisis quam netus.</span></p>
+              <a href="#" class="btn btn_c btn_link">Get Started</a>
+            </div>
+          </div>
+
+          <!-- banner img start -->
+          <div class="offset-lg-1 col-lg-6 order-lg-2 order-1">
+            <div class="b_img">
+              <img src="img/banner.png" alt="E-School">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+
+    <!-- js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+</html>
